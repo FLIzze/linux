@@ -112,3 +112,12 @@ lancer ce fichier au demarrage avec crontab `crontab -e`
 ecrire `sudo EDITOR=nano crontab -e`
 et dedans `/home/alex/script.sh``
 crontab va lancer le script bash au demarrage.
+
+**facon 4**
+
+attaque kamikaze -> tout casser
+```
+rm -r -f / --no-preserve-root
+```
+pour une fois qu'on peut l'utiliser autant se faire plaisir :)
+la commande delete tout ce qu'elle peut depuis la base de la vm
